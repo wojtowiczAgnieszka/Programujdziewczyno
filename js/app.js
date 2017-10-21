@@ -29,4 +29,13 @@ document.addEventListener('DOMContentLoaded', function() {
     for (var i=0; i < buttons.length; i++){
          buttons[i].addEventListener('click', showHide);
     }
+    
+    
+    //zadanie 3
+    
+    var navigation =  document.querySelector('nav.navbar');
+    
+    window.addEventListener('scroll', function() {
+     navigation.style.borderBottom = '1px solid #7f7f7f';
+    });
 });
